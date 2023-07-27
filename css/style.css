@@ -1,0 +1,27 @@
+:root {
+  --orange: #f39c12;
+  --text-color: #ffffff;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bgc {
+  background-color: var(--orange);
+}
+
+.btn-hover:hover {
+  background-color: var(--orange);
+  color:var(--text-color);
+}
+.btn-hover > a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.margin {
+  margin-top: 150px;
+}
+ul > li {
+  list-style: none;
+}

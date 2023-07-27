@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="bgc">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bgc p-3 sticky-top border border-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/oranges-g0584d8485_640.png" alt="Orange" width="50" height="44">
+        </a>
+        <a class="navbar-brand text-light" href="index.html">Orange Yazılım</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active me-3 display-1" aria-current="page" href="index.html">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-3 display-1" href="About-Us.html">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-3 display-1" href="Contact.html">İletişim</a>
+            </li>
+          </ul>
+          <a href="register.html"><button class="btn btn-success  me-4 btn-sm p-2 rounded-pill btn-hover d-sm-flex sm-flex-column" type="submit">Kayıt Ol</button></a>
+          <a href="login.html"><button class="btn btn-success  me-4 btn-sm p-2 rounded-pill btn-hover d-sm-flex sm-flex-column " type="submit">Giriş Yap</button>
+          </a>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+    <!-- Register -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 offset-sm-4 margin">
+          <form class="row g-3">
+            <div class="col-md-12">
+              <label for="inputEmail4" class="form-label">Email Adresinizi Giriniz</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email Adresinizi Giriniz">
+            </div>
+            <div class="col-md-12">
+              <label for="inputPassword4" class="form-label">Şifre Giriniz</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Şifre Giriniz">
+            </div>
+            <div class="col-12">
+              <label for="inputPassword" class="form-label">Şifre Tekrar Giriniz</label>
+              <input type="text" class="form-control" id="inputPassword" placeholder="Şifre Tekrar Giriniz">
+            </div>
+            <div class="col-md-6">
+              <label for="inputState1" class="form-label">İl</label>
+              <select id="inputState1" class="form-select">
+                <option selected>İl Giriniz...</option>
+                <option>Adana</option>
+                <option>Adıyaman</option>
+                <option>Afyonkarahisar</option>
+                <option>Ağrı</option>
+                <option>Amasya</option>
+                <option>Ankara</option>
+                <option>Antalya</option>
+                <option>Artvin</option>
+                <option>Aydın</option>
+                <option>Balıkesir</option>
+                <option>Bilecik</option>
+                <option>Bingöl</option>
+                <option>Bitlis</option>
+                <option>Bolu</option>
+                <option>Burdur</option>
+                <option>Bursa</option>
+                <option>Çanakkale</option>
+                <option>Çankırı</option>
+                <option>Çorum</option>
+                <option>Denizli</option>
+                <option>Diyarbakır</option>
+                <option>Edirne</option>
+                <option>Elazığ</option>
+                <option>Erzincan</option>
+                <option>Erzurum</option>
+                <option>Eskişehir</option>
+                <option>Gaziantep</option>
+                <option>Giresun</option>
+                <option>Gümüşhane</option>
+                <option>Hakkari</option>
+                <option>Hatay</option>
+                <option>Isparta</option>
+                <option>Mersin</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+                <option>Kars</option>
+                <option>Kastamonu</option>
+                <option>Kayseri</option>
+                <option>Kırklareli</option>
+                <option>Kırşehir</option>
+                <option>Kocaeli</option>
+                <option>Konya</option>
+                <option>Kütahya</option>
+                <option>Malatya</option>
+                <option>Manisa</option>
+                <option>Kahramanmaraş</option>
+                <option>Mardin</option>
+                <option>Muğla</option>
+                <option>Muş</option>
+                <option>Nevşehir</option>
+                <option>Niğde</option>
+                <option>Ordu</option>
+                <option>Rize</option>
+                <option>Sakarya</option>
+                <option>Samsun</option>
+                <option>Siirt</option>
+                <option>Sinop</option>
+                <option>Sivas</option>
+                <option>Tekirdağ</option>
+                <option>Tokat</option>
+                <option>Trabzon</option>
+                <option>Tunceli</option>
+                <option>Şanlıurfa</option>
+                <option>Uşak</option>
+                <option>Van</option>
+                <option>Yozgat</option>
+                <option>Zonguldak</option>
+                <option>Aksaray</option>
+                <option>Bayburt</option>
+                <option>Karaman</option>
+                <option>Kırıkkale</option>
+                <option>Batman</option>
+                <option>Şırnak</option>
+                <option>Bartın</option>
+                <option>Ardahan</option>
+                <option>Iğdır</option>
+                <option>Yalova</option>
+                <option>Karabük</option>
+                <option>Kilis</option>
+                <option>Osmaniye</option>
+                <option>Düzce</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="inputState" class="form-label">İlçe</label>
+              <select id="inputState" class="form-select">
+                <option selected>İlçe Giriniz...</option>
+                <option>İlçesiz Devam Et</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Beni Hatırla...
+                </label>
+              </div>
+            </div>
+            <button class="btn btn-primary w-100 py-2 mb-3 btn-hover" type="submit">Kayıt Ol</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Register in End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+  </html>
